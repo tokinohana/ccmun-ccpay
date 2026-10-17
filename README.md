@@ -1,28 +1,29 @@
-# CC PAY — Digital Payment System for CC CUP XL
+# CC MUN — Digital Food Coupon System
 
-CC PAY is a web-based digital coupon payment system developed for **Canisius College Cup XL (CC CUP XL)**, a school sports and competition event organized by SMA Kolese Kanisius Jakarta. The platform digitizes food allowance distribution and transactions, replacing traditional paper-based meal coupons with a centralized digital wallet system for event participants and committee members.
+CC MUN is a web application developed to support food coupon management for **Canisius College Model United Nations (CC MUN)**. The platform provides a digital interface for handling food coupons for both internal members of SMA Kolese Kanisius Jakarta, using `@kanisius.sch.id` accounts, and external members participating in the event.
 
-The platform allows users to view their available balance, scan merchant QR codes, make digital payments, and review their transaction history. It also provides administrative tools for managing user balances and a merchant dashboard for monitoring revenue and reviewing transactions.
-
-Built with **SvelteKit, Svelte 5, Tailwind CSS, and Vite**, the frontend integrates with a backend API for authentication, balance management, and payment processing. Google Identity Services supports the login flow, Axios handles API communication, and `qr-scanner` enables QR code scanning.
+Designed to streamline food coupon distribution and usage, the application digitizes workflows traditionally handled through physical coupons. It provides a centralized interface for users to access their food coupon information and for relevant event personnel to manage coupon-related operations.
 
 ## Key Features
 
-- **Digital Wallet:** Displays available balances and recent transaction history.
-- **QR-Based Payments:** Enables users to identify merchants by scanning QR codes, with manual merchant selection as an alternative.
-- **Digital Transactions:** Provides an interface for entering payment amounts and confirming transactions.
-- **Balance Management:** Allows administrators to update balances for multiple users.
-- **Merchant Dashboard:** Displays merchant revenue and transaction records.
-- **Authentication:** Integrates Google Identity Services with backend API authentication.
+- **Digital Food Coupons:** Provides a digital interface for accessing and managing food coupon information.
+- **Internal and External User Support:** Accommodates both school-affiliated members with `@kanisius.sch.id` accounts and external event participants.
+- **Coupon Management Interface:** Supports food coupon-related workflows through a web-based interface.
+- **Responsive User Experience:** Built with modern frontend technologies to provide an accessible and intuitive experience across supported devices.
 
 ## Tech Stack
 
-- **Frontend:** SvelteKit, Svelte 5, TypeScript/JavaScript
+- **Framework:** SvelteKit
+- **UI Framework:** Svelte 5
+- **Language:** TypeScript / JavaScript
 - **Styling:** Tailwind CSS
 - **Build Tool:** Vite
-- **API Communication:** Axios
-- **QR Scanning:** `qr-scanner`
-- **Authentication:** Google Identity Services and backend API integration
 - **Deployment Configuration:** Vercel adapter
 
-CC PAY demonstrates the application of web development to real-world event operations, streamlining payment workflows and reducing reliance on physical coupons.
+## Project Scope
+
+This repository contains the **frontend implementation** of the CC MUN food coupon system. It focuses on the user interface, client-side interactions, and presentation of coupon-related workflows. Backend services and server-side business logic are outside the scope of this repository.
+
+## Purpose
+
+CC MUN demonstrates the application of modern web development to event operations, providing a digital alternative to traditional food coupon workflows and supporting both internal and external participants through a unified web interface.
