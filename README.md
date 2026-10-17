@@ -4,6 +4,14 @@ CC MUN is a web application developed to support food coupon management for **Ca
 
 Designed to streamline food coupon distribution and usage, the application digitizes workflows traditionally handled through physical coupons. It provides a centralized interface for users to access their food coupon information and for relevant event personnel to manage coupon-related operations.
 
+## Project Background
+
+CC MUN's version of CC PAY was developed by cloning and refurbishing the original **CC PAY** repository, initially created for Canisius College Cup XL (CC CUP XL).
+
+Original repository: [tokinohana/cc-pay](https://github.com/tokinohana/cc-pay)
+
+The codebase was adapted for CC MUN's food coupon operations, with modifications to suit the event's requirements and its support for both internal and external members. This repository represents the refurbished frontend implementation for CC MUN, rather than the original CC CUP deployment.
+
 ## Key Features
 
 - **Digital Food Coupons:** Provides a digital interface for accessing and managing food coupon information.
